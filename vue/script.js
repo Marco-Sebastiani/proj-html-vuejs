@@ -6,4 +6,8 @@ var app = new Vue({
     mounted(){
         alert('ciao')
     }
+    
 });
+
+
+
