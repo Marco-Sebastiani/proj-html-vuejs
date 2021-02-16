@@ -57,7 +57,7 @@ header nav .box-link ul li{
     font-size: 12px;
     position: relative;
 }
-header nav .box-link ul li a.active{
+header nav .box-link ul li.active a{
     color:#fed23f;
 }
 header nav .box-link ul li::after{
@@ -82,7 +82,7 @@ header nav .box-link .btn-nav{
     padding: 8px 20px;
 }
 .jumbotron{
-    background-image: url("https://avada.theme-fusion.com/construction/wp-content/uploads/sites/55/2015/12/home-slider-62528242.jpg");
+    background-image: url('../img/home-slider-62528242.jpg');
     height: 610px;
     background-position: 0px 25%;
     background-repeat: no-repeat;
@@ -166,38 +166,68 @@ header nav .box-link .btn-nav{
     align-items: center;
 }
 
-.box-description-item{
+.box-description-title{
     padding: 70px 0;
+    display: flex;
+    flex-direction: column;
 }
 
-.box-description-item h4{
+.box-description-item{
+    width: 75%;
+    align-self: center;
+}
+
+.box-description-title h4{
     text-transform: capitalize;
     font-size: 1.6em;
     font-weight: normal;
 }
 
-/* .box-description-item h4::after{
+.box-description-title h4::after{
     content: '';
-    display: inline-block;
-    width: 39%;
-    height: 1px;
+    display: block;
+    width: 15%;
+    height: 2px;
+    margin: 20px auto;
     background-color: #f9d03f;
-} */
-
-hr
+} 
+    
 
 .box-cards{
     display: flex;
     justify-content: space-around;
+    margin-bottom: 40px;
 }
 
 #cards .box-cards-item{
     width: 300px;
     height: 200px;
-    background-color: sienna;
+    background-color:#ececec;
     padding: 8px;
+    border-radius: 10px;
+    margin: 0 15px;
+    display: flex;
+    justify-content: center;
+
+
 }
 
+#cards .box-rotate-icon{
+    display: flex;
+    width: 65px;
+    height: 65px;
+    font-size: 24px;
+    color: #747474;
+    border: 1px solid #000;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+}
+
+#numbers{
+    height: 200px;
+    background-color: rgb(41, 129, 93);
+}
 
 /* / MAIN */
 

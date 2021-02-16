@@ -27,7 +27,7 @@
                     <!-- BOX LINK -->
                     <div class="box-link">
                         <ul>
-                            <li v-for="(link,index) in listItem" @click="statusActive(index)" ><a href="#" :class='(index == counter) ? "active" : ""'>{{link}}</a></li>
+                            <li :class='(index == counter) ? "active" : ""' v-for="(link,index) in listItem" @click="statusActive(index)" ><a href="#" >{{link}}</a></li>
                         </ul>
                         <a class="btn btn-nav" href="#">get quote</a>
                     </div>
@@ -66,24 +66,43 @@
             <section id="cards">
                 <div class="container-lg">                    
                     <div class="box-description">
-                        <div class="box-description-item">
+                        <div class="box-description-title">
                             <h4>specialists in modern construction</h4>
-                            <hr>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam.</p>
+                            <div class="box-description-item">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam.</p>
+                            </div>
                         </div>
                     </div>
                     <div class="box-cards">
                         <div class="box-cards-item">
 
-                        </div>
-                        <div class="box-cards-item">
+                            <div class="box-rotate-front">
+                                <div class="box-rotate-icon">
+                                    <i class="fa-building far"></i>
+                                </div>
+                            </div>
 
                         </div>
                         <div class="box-cards-item">
-
+                            <div class="box-rotate-front">
+                                <div class="box-rotate-icon">
+                                    <i class="fa-sync fas"></i>
+                                </div>
+                            </div>
                         </div>
                         <div class="box-cards-item">
-
+                            <div class="box-rotate-front">
+                                <div class="box-rotate-icon">
+                                    <i class="fa-home fas"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="box-cards-item">
+                            <div class="box-rotate-front">
+                                <div class="box-rotate-icon">
+                                    <i class="fa-truck fas"></i>
+                                </div>
+                            </div>
                         </div>
 
                     </div>
@@ -93,7 +112,9 @@
 
             <!-- SEZIONE IMMAGINE CON NUMERI -->
             <section id="numbers">
-                <div class="box-numbers"></div>
+                <div class="box-numbers">
+                    <!-- <svg class="fusion-big-half-circle-candy" xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100" viewBox="0 0 100 100" preserveAspectRatio="none" style="fill:#ffffff;padding:0;"><path d="M0 0 C55 180 100 0 100 0 Z"></path></svg> -->
+                </div>
             </section>
             <!-- /SEZIONE IMMAGINE CON NUMERI -->
 
