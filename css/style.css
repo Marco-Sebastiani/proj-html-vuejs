@@ -67,12 +67,15 @@ header nav .box-link ul li::after{
     font-size: 38px;
     color: #fff;
     position: absolute;
-    top: 33px;
-    right: 34%;
+    top: 31px;
+    left: 50%;
     opacity: 0;
-    transition: all 0.8s;
+    transform: translateX(-50%);
+    transition: all 0.5s;
 }
-header nav .box-link ul li:hover::after{
+header nav .box-link ul li:hover::after,
+header nav .box-link ul li.active::after
+{
     opacity: 1;
 }
 header nav .box-link .btn-nav{
@@ -86,6 +89,7 @@ header nav .box-link .btn-nav{
     background-size: cover;
     text-align: center;
     position: relative;
+    z-index: -1;
 }
 
 .jumbotron .box-item-jumbo{
@@ -114,7 +118,6 @@ header nav .box-link .btn-nav{
     margin: 10px 8px;
     padding: 11px 40px;
     font-size: 0.9em;
-
 }
 
 .jumbotron .box-btn-jumbo a.btn-grey{
@@ -126,11 +129,6 @@ header nav .box-link .btn-nav{
 
 
 /* MAIN */
-main{
-    background-color: aqua;
-    height: 500px;
-}
-
 #help{
     width: 100%;
     height: 130px;
@@ -138,7 +136,6 @@ main{
     text-align: center;
     position: relative;
 }
-
 #help .box-help p{
     text-transform: capitalize;
     font-size: 1.5em;
@@ -147,7 +144,6 @@ main{
     left: 50%;
     transform: translate(-50%,-50%);
 }
-
 #help .btn-help{
     position: absolute;
     bottom: -17px;
@@ -159,6 +155,49 @@ main{
     background-color: #31312f;
     border: 1px solid #fff;
 }
+
+#cards{
+    text-align: center;
+}
+
+#cards .box-description{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-description-item{
+    padding: 70px 0;
+}
+
+.box-description-item h4{
+    text-transform: capitalize;
+    font-size: 1.6em;
+    font-weight: normal;
+}
+
+/* .box-description-item h4::after{
+    content: '';
+    display: inline-block;
+    width: 39%;
+    height: 1px;
+    background-color: #f9d03f;
+} */
+
+hr
+
+.box-cards{
+    display: flex;
+    justify-content: space-around;
+}
+
+#cards .box-cards-item{
+    width: 300px;
+    height: 200px;
+    background-color: sienna;
+    padding: 8px;
+}
+
 
 /* / MAIN */
 
