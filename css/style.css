@@ -117,29 +117,47 @@ header nav .box-link .btn-nav{
 
 }
 
-.jumbotron .box-btn-jumbo .btn-grey{
-    /* padding: 11px 35px; */
+.jumbotron .box-btn-jumbo a.btn-grey{
     color:#fff;
     background-color: #333333;
 }
 
-
-
 /* FINE HEADER */
-
-
-
-
-
-
-
-
 
 
 /* MAIN */
 main{
     background-color: aqua;
     height: 500px;
+}
+
+#help{
+    width: 100%;
+    height: 130px;
+    background-color: #fed23f;
+    text-align: center;
+    position: relative;
+}
+
+#help .box-help p{
+    text-transform: capitalize;
+    font-size: 1.5em;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+#help .btn-help{
+    position: absolute;
+    bottom: -17px;
+    left: 50%;
+    transform: translateX(-50%);
+    color:rgb(248, 236, 236);
+    letter-spacing: 2px;
+    padding: 10px 20px;
+    background-color: #31312f;
+    border: 1px solid #fff;
 }
 
 /* / MAIN */
