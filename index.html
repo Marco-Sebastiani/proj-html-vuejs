@@ -29,7 +29,7 @@
                         <ul>
                             <li v-for="(link,index) in listItem" @click="statusActive(index)" ><a href="#" :class='(index == counter) ? "active" : ""'>{{link}}</a></li>
                         </ul>
-                        <a class="btn" href="#">get quote</a>
+                        <a class="btn btn-nav" href="#">get quote</a>
                     </div>
                     <!-- / BOX LINK -->
 
@@ -38,9 +38,14 @@
 
             <!-- JUMBOTRON -->
             <div class="jumbotron ">
-                <div class="container-md">
-
-                </div>
+                    <div class="box-item-jumbo">
+                        <h1>building inspiring spaces</h1>
+                        <p>we build inspiring residential & commercial spaces</p>
+                        <div class="box-btn-jumbo">
+                            <a class="btn-grey" href="#">explore recent work</a>
+                            <a class="btn" href="#">get a quote today</a>
+                        </div>
+                    </div>
             </div>
             <!-- / JUMBOTRON -->
         </header>
