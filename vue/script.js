@@ -1,10 +1,19 @@
 var app = new Vue({
     el:'#app',
-    document:{
-
+    data:{
+        listItem: [
+            'home',
+            'about',
+            'service',
+            'work',
+            'articles'
+        ],
+        counter: 0
     },
-    mounted(){
-        alert('ciao')
+    methods:{
+        statusActive(i){
+            this.counter= i;
+        }
     }
     
 });
