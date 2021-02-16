@@ -156,9 +156,6 @@ header nav .box-link .btn-nav{
     border: 1px solid #fff;
 }
 
-#cards{
-    text-align: center;
-}
 
 #cards .box-description{
     display: flex;
@@ -167,6 +164,7 @@ header nav .box-link .btn-nav{
 }
 
 .box-description-title{
+    text-align: center;
     padding: 70px 0;
     display: flex;
     flex-direction: column;
@@ -201,27 +199,46 @@ header nav .box-link .btn-nav{
 
 #cards .box-cards-item{
     width: 300px;
-    height: 200px;
+    height: 215px;
     background-color:#ececec;
     padding: 8px;
     border-radius: 10px;
+    color: #747474;
     margin: 0 15px;
-    display: flex;
-    justify-content: center;
-
-
+    position: relative;
 }
 
-#cards .box-rotate-icon{
-    display: flex;
-    width: 65px;
-    height: 65px;
-    font-size: 24px;
-    color: #747474;
+.box-rotate-icon{
+    position: absolute;
+    width: 50px;
+    height: 50px;
     border: 1px solid #000;
     border-radius: 50%;
+    top: 13%;
+    left:50%;
+    transform: translateX(-50%);
+    display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.box-title-card{
+    position: absolute;
+    color: #000;
+    top: 43%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.box-text-card{
+    position: absolute;
+    width: 95%;
+    font-size: 0.7em;
+    text-align: center;
+    top: 65%;
+    left: 50%;
+    transform: translateX(-50%);
+    line-height: 1.6;
 }
 
 #numbers{
