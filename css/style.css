@@ -72,10 +72,10 @@ header nav .box-link ul li::after{
     opacity: 0;
     transform: translateX(-50%);
     transition: all 0.5s;
+    z-index: 100;
 }
 header nav .box-link ul li:hover::after,
-header nav .box-link ul li.active::after
-{
+header nav .box-link ul li.active::after {
     opacity: 1;
 }
 header nav .box-link .btn-nav{
@@ -89,7 +89,6 @@ header nav .box-link .btn-nav{
     background-size: cover;
     text-align: center;
     position: relative;
-    z-index: -1;
 }
 
 .jumbotron .box-item-jumbo{
@@ -199,16 +198,20 @@ header nav .box-link .btn-nav{
 
 #cards .box-cards-item{
     width: 300px;
-    height: 215px;
+    height: 255px;
     background-color:#ececec;
     padding: 8px;
     border-radius: 10px;
     color: #747474;
-    margin: 0 15px;
+    /* margin: 0 15px; */
     position: relative;
 }
 
-.box-rotate-icon{
+.box-rotate-front{
+    width: 100%;
+}
+
+#cards .box-rotate-icon{
     position: absolute;
     width: 50px;
     height: 50px;
@@ -222,7 +225,7 @@ header nav .box-link .btn-nav{
     align-items: center;
 }
 
-.box-title-card{
+#cards .box-title-card{
     position: absolute;
     color: #000;
     top: 43%;
@@ -230,7 +233,7 @@ header nav .box-link .btn-nav{
     transform: translateX(-50%);
 }
 
-.box-text-card{
+#cards .box-text-card{
     position: absolute;
     width: 95%;
     font-size: 0.7em;
@@ -239,6 +242,42 @@ header nav .box-link .btn-nav{
     left: 50%;
     transform: translateX(-50%);
     line-height: 1.6;
+}
+
+#cards .box-back-card{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 300px;
+    height: 255px;
+    padding: 20px 10px;
+    border-radius: 10px;
+    background-color: #fed03d;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    opacity: 0;
+    transition: all 0.8s;
+}
+
+#cards .box-cards-item:hover .box-back-card{
+opacity: 1;}
+
+#cards .box-back-title{
+    text-transform: uppercase;
+}
+
+#cards .box-text-back{
+    text-align: center;
+    font-size: 0.8em;
+    line-height: 1.8;
+}
+
+#cards .btn-back{
+    text-transform: uppercase;
+    padding: 10px 20px;
+    background-color: #ffe07b;
 }
 
 #numbers{
