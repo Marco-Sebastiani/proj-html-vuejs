@@ -673,13 +673,13 @@ opacity: 1;}
     border-bottom: 10px solid rgb(61, 61, 61);
 }
 
-.box-info-building{
+#building .box-info-building{
     display: flex;
     height: 450px;
     color: #fff;
 }
 
-.box-building-right{
+#building .box-building-right{
     display: flex;
     flex-direction: column;
     width: 60%;
@@ -688,7 +688,7 @@ opacity: 1;}
     line-height: 1.6;
 }
 
-.box-building-left{
+#building .box-building-left{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -696,11 +696,11 @@ opacity: 1;}
     width: 40%;
 }
 
-.box-building-right h3{
+#building .box-building-right h3{
     font-size: 2em;
 }
 
-.box-building-right h3::after{
+#building .box-building-right h3::after{
     content: '';
     display: block;
     width: 37%;
@@ -709,11 +709,12 @@ opacity: 1;}
     margin: 30px 0;
 } 
 
-.box-btn-building{
+#building .box-btn-building{
     margin-bottom: 25px;
 }
 
-.box-btn-building a{
+#building .box-btn-building a,
+.box-btn-footer a{
     text-transform: uppercase;
     font-size: 1.3em;
     letter-spacing: 2px;
@@ -721,13 +722,100 @@ opacity: 1;}
     background-color: #f9d03f;
     margin-bottom: 15px;
 }
-
 /* / MAIN */
 
 /* FOOTER */
 footer{
     background-color: #f1eaea;
+
+    background-color: #333333;
+}
+
+footer .box-footer-header{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding: 40px 0;
+}
+
+footer .box-item-header{
+    width: 300px ;
     height: 400px;
+    /* background-color: violet; */
+}
+
+footer .box-text-footer{
+    padding: 30px 0;
+    line-height: 1.6;
+    color: #f1eaea;
+}
+
+footer .box-footer-bottom{
+    width: 100%;
+    height: 70px;
+    background-color: #000;
+}
+
+footer .box-spot-header{
+    display: flex;
+    padding: 20px 0;
+}
+
+footer .box-item-header h2{
+    color:#fed03d;
+    text-transform: uppercase;
+}
+
+footer .container-spot{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+footer .box-item-spot{
+    width: 100%;
+}
+
+footer.box-item-spot h5{
+    color: #fff;
+}
+
+footer .box-item-spot p,
+footer .box-item-spot i{
+    color: #666665;
+}
+
+footer .box-text-spot{
+    text-align: justify;
+    font-size: 0.8em;
+    padding: 10px;
+}
+
+footer .box-text-spot span {
+    color: rgb(46, 13, 165);
+    cursor: pointer;
+}
+
+footer .box-img-spot img{
+    width: 100%;
+}
+
+footer .box-icon-spot{
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .box .icon-right{
+    height: 30px;
+    width: 80%;
+}
+
+footer .box-icon-right i{
+    margin-right: 15px;
+}
+
+footer .box-icon-left{
+    color: #727272;
 }
 /* / FOOTER */
 
