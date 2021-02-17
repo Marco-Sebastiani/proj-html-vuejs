@@ -5,6 +5,10 @@
     font-family: 'Lato', sans-serif;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 /* REGOLE GENERALI */
 
 ul{
@@ -842,7 +846,40 @@ footer .box-img img{
     width: 100%;
 }
 
+footer .box-item-footer-bottom{
+    display: flex;
+    color: #fff;
+    justify-content: space-between;
+}
+
+.box-copyright{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    line-height: 70px;
+}
+
+.box-link-social{
+    line-height: 70px;
+}
+
+.box-link-social i {
+    margin-right: 15px;
+}
 /* / FOOTER */
+
+.box-link-rewind{
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    position: fixed;
+}
+
+.box-link-rewind a{
+    color: #fff;
+    padding: 10px;
+    background-color: #747474ad;
+}
 
 /* REGOLE RIUTILIZZABILI */
 
