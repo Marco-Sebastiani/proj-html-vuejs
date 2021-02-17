@@ -739,9 +739,8 @@ footer .box-footer-header{
 }
 
 footer .box-item-header{
-    width: 300px ;
+    width: 293px ;
     height: 400px;
-    /* background-color: violet; */
 }
 
 footer .box-text-footer{
@@ -761,7 +760,9 @@ footer .box-spot-header{
     padding: 20px 0;
 }
 
-footer .box-item-header h2{
+footer .box-item-header h2,
+footer .box-title-contacts h2,
+footer .box-title-find h2{
     color:#fed03d;
     text-transform: uppercase;
 }
@@ -811,12 +812,36 @@ footer .box .icon-right{
 }
 
 footer .box-icon-right i{
-    margin-right: 15px;
+    margin-right: 8px;
 }
 
 footer .box-icon-left{
     color: #727272;
+    font-size: 0.9em;
 }
+
+footer .box-item-contacts{
+    color: #66666e;
+}
+
+footer .box-item-contacts ul li {
+    margin: 15px 0;
+    font-size: 0.8em;
+    line-height: 1.6;
+}
+
+footer .box-item-contacts i{
+    margin-right: 6px;
+}
+
+footer .box-img{
+    margin-top: 20px;
+}
+
+footer .box-img img{
+    width: 100%;
+}
+
 /* / FOOTER */
 
 /* REGOLE RIUTILIZZABILI */
