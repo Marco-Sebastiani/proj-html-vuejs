@@ -188,12 +188,11 @@ header nav .box-link .btn-nav{
     margin: 20px auto;
     background-color: #f9d03f;
 } 
-    
 
 .box-cards{
     display: flex;
     justify-content: space-around;
-    margin-bottom: 40px;
+    margin-bottom: 10%;
 }
 
 #cards .box-cards-item{
@@ -281,10 +280,61 @@ opacity: 1;}
 }
 
 #numbers{
-    height: 200px;
-    background-color: rgb(41, 129, 93);
+    height: 600px;
+    background-image: url('../img/home-244125289.jpg');
+    background-position: 0 45%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
 }
 
+/* #numbers .curve-top{
+    position: absolute;
+    top: 0;
+    z-index: 20;
+} */
+
+#numbers .curve-bottom{
+    position: absolute;
+    bottom: 0;
+    z-index: 20;
+}
+
+.box-item-numbers{
+    display: flex;
+    justify-content: space-around;
+}
+
+.box-first-number{
+    width: 100px;
+    height: 100px;
+    background-color: violet;
+
+}
+
+.box-second-number{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(200, 238, 130);
+}
+
+.box-third-number{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(238, 130, 229);
+}
+
+
+
+
+
+
+#work{
+    width: 100%;
+    height: 300px;
+    background-color: violet;
+    margin-top: 10%;
+}
 /* / MAIN */
 
 /* FOOTER */
@@ -306,11 +356,11 @@ footer{
 .container-md{
     max-width: 960px;
     margin: auto;
-    background: rgba(255, 0, 0, 0.068);
+    /* background: rgba(255, 0, 0, 0.068); */
     height: 200px;
 }
 
- 
+
 
 
 
