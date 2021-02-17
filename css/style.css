@@ -410,12 +410,39 @@ opacity: 1;}
     color: #fff;
 }
 
+#work .box-view-all-work p{
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 2px;
+    color: rgb(145, 144, 144);
+    margin-bottom: 80px;
+    position: relative;
+}
+
+#work .box-view-all-work p::before{
+    content: '';
+    display: block;
+    width: 30%;
+    height: 2px;
+    background-color: #f3f3e8d5;
+}
+
+#work .box-view-all-work p::after{
+    position: absolute;
+    content: '';
+    display: block;
+    width: 30%;
+    height: 2px;
+    background-color: #f3f3e8d5;
+    right: 0;
+}
+
 
 /* / MAIN */
 
 /* FOOTER */
 footer{
-    background-color: #ababab;
+    background-color: #f1eaea;
     height: 400px;
 }
 /* / FOOTER */
