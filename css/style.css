@@ -621,6 +621,7 @@ opacity: 1;}
 
 #news .box-hover{
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     position: absolute;
@@ -635,6 +636,12 @@ opacity: 1;}
 
 #news .box-img-news:hover .box-hover{
     opacity: 1;
+}
+
+#news .box-text-hover-news{
+    text-align: center;
+    color: #fff;
+    margin-top: 10px;
 }
 
 #news .box-item-news-header img{
