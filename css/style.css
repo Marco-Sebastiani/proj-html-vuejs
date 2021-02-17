@@ -746,6 +746,12 @@ opacity: 1;}
     background-color: #f9d03f;
     margin-bottom: 15px;
 }
+
+#building .box-btn-building a:hover,
+.box-btn-footer a:hover{
+    background-color: #181817;
+    color: #e0b61c;
+}
 /* / MAIN */
 
 /* FOOTER */
