@@ -89,6 +89,11 @@ header nav .box-link ul li.active::after {
 header nav .box-link .btn-nav{
     padding: 8px 20px;
 }
+
+header nav .box-link .btn-nav:hover{
+    background-color: #000;
+    color: #fff;
+}
 .jumbotron{
     background-image: url('../img/home-slider-62528242.jpg');
     height: 610px;
