@@ -191,18 +191,18 @@ header nav .box-link .btn-nav{
 
 .box-cards{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     margin-bottom: 10%;
 }
 
 #cards .box-cards-item{
-    width: 300px;
+    width: 220px;
     height: 255px;
     background-color:#ececec;
     padding: 8px;
     border-radius: 10px;
     color: #747474;
-    /* margin: 0 15px; */
+    margin: 0 12px;
     position: relative;
 }
 
@@ -247,7 +247,7 @@ header nav .box-link .btn-nav{
     position: absolute;
     top: 0;
     left: 0;
-    width: 300px;
+    width: 220px;
     height: 255px;
     padding: 20px 10px;
     border-radius: 10px;
@@ -293,9 +293,8 @@ opacity: 1;}
     height: 100%;
     margin: auto;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-
 }
 
 #numbers .box-number-item{
@@ -321,6 +320,7 @@ opacity: 1;}
     text-transform: uppercase;
     font-size: 1em;
 }
+
 
 
 #work{
