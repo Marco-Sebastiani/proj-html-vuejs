@@ -178,6 +178,11 @@ header nav .box-link .btn-nav:hover{
     border: 1px solid #fff;
 }
 
+#help .btn-help:hover{
+    background-color: #e0b61c;
+    color: #31312f;
+}
+
 
 #cards .box-description{
     display: flex;
