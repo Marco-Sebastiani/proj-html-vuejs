@@ -137,6 +137,11 @@ header nav .box-link .btn-nav:hover{
     background-color: #333333;
 }
 
+.jumbotron .box-btn-jumbo a.btn-grey:hover{
+    background-color: #f9d03f;
+    color: #31312f;
+}
+
 /* FINE HEADER */
 
 
