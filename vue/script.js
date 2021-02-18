@@ -25,7 +25,7 @@ var app = new Vue({
         ]
     },
     created(){
-        this.interval = setInterval(this.next, 4000);
+        this.interval = setInterval(this.next, 6000);
     },
     methods:{
         statusActive(i){
