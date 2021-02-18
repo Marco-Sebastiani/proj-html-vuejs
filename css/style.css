@@ -498,18 +498,22 @@ opacity: 1;}
     margin: 0 10px;
 }
 
-#core .box-core-icon i{
-    font-size: 4em;
-    padding: 25px;
+#core .box-core-icon {
+    font-size: 3.8em;
+    /* padding: 25px; */
     color: #fff;
     background-color: teal;
     border-radius: 50%;
+    width: 90px;
+    height: 90px;
+    line-height: 90px;
+    text-align: center;
 }
 
-#core .box-core-icon i:hover,
-#core .box-core-icon i.orange:hover,
-#core .box-core-icon i.blue:hover,
-#core .box-core-icon i.green:hover{
+#core .box-core-icon:hover,
+#core .box-core-icon.orange:hover,
+#core .box-core-icon.blue:hover,
+#core .box-core-icon.green:hover{
     background-color: #f9d03f;
 }
 
@@ -518,13 +522,13 @@ opacity: 1;}
     cursor: pointer;
 }
 
-#core .box-core-icon i.orange{
+#core .box-core-icon.orange{
     background-color: rgb(247, 86, 28);
 }
-#core .box-core-icon i.blue{
+#core .box-core-icon.blue{
     background-color: rgb(64, 53, 228);
 }
-#core .box-core-icon i.green{
+#core .box-core-icon.green{
     background-color: rgb(100, 184, 68);
 }
 
@@ -593,10 +597,14 @@ opacity: 1;}
     margin-bottom: 40px;
 }
 
+#testimonial .box-circle-testimonial i{
+
+    margin: 5px;
+}
+
 #testimonial .box-circle-testimonial i.active{
     background-color: #fff;
     border-radius: 50%;
-    margin: 0 10px;
 }
 
 
