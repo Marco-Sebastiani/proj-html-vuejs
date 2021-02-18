@@ -583,27 +583,26 @@
 
                         <!-- BOX TESTIMONIAL IMG -->
                         <div class="box-img-testimonial">
-                            <img src="img/home-testimonial-113165296.jpg" alt="home-testimonial">
+                            <img :src="testimonial[position].photo" alt="home-testimonial">
                         </div>
                         <!-- / BOX TESTIMONIAL IMG -->
 
 
                         <!-- BOX_TEXT TESTIMONIAL -->
                         <div class="box-text-testimonial">
-                            <p>“No man but feels more of a man in the world if he have but a bit of ground that he can call his own. However small it is on the surface, it is four thousand miles deep; and that is a very handsome property.”</p>
+                            <p>{{ testimonial[position].text }}</p>
                         </div>
                         <!-- /BOX_TEXT TESTIMONIAL -->
 
                         <!-- BOX NAME TESTIMONIAL -->
                         <div class="box-name-testimonial">
-                            <p>HARRY SMITH • NEW HOME OWNER</p>
+                            <p>{{ testimonial[position].name }}</p>
                         </div>
                         <!-- / BOX NAME TESTIMONIAL -->
 
                         <!-- BOX PALLINO -->
                         <div class="box-circle-testimonial">
-                            <i class="far fa-circle active"></i>
-                            <i class="far fa-circle"></i>
+                            <i class="far fa-circle" :class="(index == position) ? 'active' : '' " v-for="(img,index) in testimonial" @click="circle(index)"></i>
                         </div>
                         <!-- /BOX PALLINO -->
                     </div>

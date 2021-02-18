@@ -562,6 +562,9 @@ opacity: 1;}
     color: #fff;
 }
 
+#testimonial .box-testimonial h2{
+    text-transform: capitalize;
+}
 
 #testimonial .box-title-testimonial h2::after{
     content: '';
@@ -593,6 +596,7 @@ opacity: 1;}
 #testimonial .box-circle-testimonial i.active{
     background-color: #fff;
     border-radius: 50%;
+    margin: 0 10px;
 }
 
 
